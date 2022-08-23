@@ -4,6 +4,9 @@ pragma solidity >=0.8.0 <0.9.0;
 
 // @title On-chain realized volatility oracle with online algorithm,
 // by tracking an on-chain price oracle
+// more details about the algorithm:
+// https://im0xalpha.notion.site/An-Online-Algorithm-of-Realized-Vol-b20b3ff31f9448eea6be42c4b5052361
+
 contract RealizedVolatilityOracle {
 
     event NewVolatility(uint256 timestamp, uint256 volatility);
